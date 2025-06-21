@@ -1,0 +1,172 @@
+2025-06-21 23:39:08,651 - INFO - Initializing Hallucination Detection System...
+2025-06-21 23:39:08,651 - INFO - Loading model (this may take a moment)...
+2025-06-21 23:39:11,299 - INFO - Model loaded successfully!
+2025-06-21 23:39:11,315 - INFO - ==================================================
+2025-06-21 23:39:11,315 - INFO - Testing 15 questions (10 from KB + 5 edge cases)
+2025-06-21 23:39:11,315 - INFO - ==================================================
+2025-06-21 23:39:11,315 - INFO - 
+Q: What is the capital of France?
+2025-06-21 23:39:13,095 - INFO - A (1st attempt): The capital of France is France - and it is France - with an industrial character. It is the
+2025-06-21 23:39:13,111 - INFO - Retrying...
+2025-06-21 23:39:13,311 - INFO - A (2nd attempt): The capital of France is France. It is a capital of France. The capital of France is France
+2025-06-21 23:39:13,311 - INFO - 
+Q: Who wrote Hamlet?
+2025-06-21 23:39:13,557 - INFO - A (1st attempt): Hamlet was a big part of the cast of The Hunger Games. He was one of the most
+2025-06-21 23:39:13,565 - INFO - Retrying...
+2025-06-21 23:39:13,803 - INFO - A (2nd attempt): If we could never write Hamlet, it wouldn't be enough!
+2025-06-21 23:39:13,803 - INFO - 
+Q: What is the boiling point of water in Celsius?
+2025-06-21 23:39:14,040 - INFO - A (1st attempt): I think that the temperature at the boiling point is about the same as the temperature at the boiling point
+2025-06-21 23:39:14,040 - INFO - Retrying...
+2025-06-21 23:39:14,235 - INFO - A (2nd attempt): Well, it is boiling. The temperature of the temperature is very high. There are a lot of
+2025-06-21 23:39:14,249 - INFO - 
+Q: Who is the CEO of Tesla?
+2025-06-21 23:39:14,476 - INFO - A (1st attempt): I'm an engineer from California, I have a lot of experience going through production and testing, and
+2025-06-21 23:39:14,484 - INFO - Retrying...
+2025-06-21 23:39:14,712 - INFO - 
+Q: What is the square root of 64?
+2025-06-21 23:39:14,919 - INFO - A (1st attempt): The square root of 64 is the square root of 64. The square root of 64 is the square
+2025-06-21 23:39:14,921 - INFO - Retrying...
+2025-06-21 23:39:15,105 - INFO - A (2nd attempt): I think it is that much larger. I think it is that much larger. I think it is
+2025-06-21 23:39:15,105 - INFO - 
+Q: When did World War 2 end?
+2025-06-21 23:39:15,316 - INFO - A (1st attempt): When did World War 2 end?
+2025-06-21 23:39:15,321 - INFO - Retrying...
+2025-06-21 23:39:15,535 - INFO - A (2nd attempt): First, we had an explosion in the middle of the night and a little bit of fire and smoke
+2025-06-21 23:39:15,535 - INFO - 
+Q: What is the currency of Japan?
+2025-06-21 23:39:15,746 - INFO - A (1st attempt): Japan's yen has risen more than half since the end of the year and is now back on track
+2025-06-21 23:39:15,746 - INFO - 
+Q: Which planet is known as the Red Planet?
+2025-06-21 23:39:15,987 - INFO - A (1st attempt): Not in the sense that we know much about the Red Planet, which is the star. The Red
+2025-06-21 23:39:15,987 - INFO - Retrying...
+2025-06-21 23:39:16,218 - INFO - A (2nd attempt): The planet is known as the Red Planet, and the planet is known as the Red Planet, and
+2025-06-21 23:39:16,218 - INFO - 
+Q: What is the largest ocean?
+2025-06-21 23:39:16,420 - INFO - A (1st attempt): The ocean is 6.2 miles (7.7 kilometers) deep. The water is about 3
+2025-06-21 23:39:16,420 - INFO - Retrying...
+2025-06-21 23:39:16,738 - INFO - A (2nd attempt): It is not known how much it is
+2025-06-21 23:39:16,738 - INFO - 
+Q: What gas do plants inhale during photosynthesis?
+2025-06-21 23:39:16,951 - INFO - A (1st attempt): The gas, usually referred to as gas, is an alkaline substance, which acts as a chemical
+2025-06-21 23:39:16,951 - INFO - Retrying...
+2025-06-21 23:39:17,156 - INFO - A (2nd attempt): Well, we have a bunch of gas in our system. We have plants that are not burning carbon
+2025-06-21 23:39:17,156 - INFO - 
+Q: What is Elon Musk's dog's name?
+2025-06-21 23:39:17,368 - INFO - A (1st attempt): He was born on May 8, 1962. That day is the 10th anniversary of the launch of
+2025-06-21 23:39:17,371 - INFO - Retrying...
+2025-06-21 23:39:17,574 - INFO - A (2nd attempt): He's a guy with a cat named Moo. It's very friendly! I'm really happy
+2025-06-21 23:39:17,574 - INFO - 
+Q: What is the meaning of life?
+2025-06-21 23:39:17,801 - INFO - A (1st attempt): Life is the end of life for people like me. Life is a love (you) and a
+2025-06-21 23:39:17,801 - INFO - Retrying...
+2025-06-21 23:39:18,013 - INFO - A (2nd attempt): The meaning of life is to be born with an expectation of the future, which is in the past
+2025-06-21 23:39:18,013 - INFO - 
+Q: Who invented the internet?
+2025-06-21 23:39:18,226 - INFO - A (1st attempt): The internet itself has changed the way people interact with each other. People are trying to be more aware
+2025-06-21 23:39:18,226 - INFO - Retrying...
+2025-06-21 23:39:18,451 - INFO - A (2nd attempt): I didn't know it until I read it. I've been working on a lot of stuff
+2025-06-21 23:39:18,454 - INFO - 
+Q: What is the color of the wind?
+2025-06-21 23:39:18,640 - INFO - A (1st attempt): There are a number of colors in the wind
+2025-06-21 23:39:18,656 - INFO - Retrying...
+2025-06-21 23:39:18,854 - INFO - A (2nd attempt): Wind is a very complex shape and shape. The wind is kind of dense, but different than that
+2025-06-21 23:39:18,854 - INFO - 
+Q: How many legs does a unicorn have?
+2025-06-21 23:39:19,052 - INFO - A (1st attempt): 10
+2025-06-21 23:39:19,067 - INFO - Retrying...
+2025-06-21 23:39:19,265 - INFO - A (2nd attempt): 1,200
+2025-06-21 23:39:19,265 - INFO - 
+==================================================
+2025-06-21 23:39:19,273 - INFO - ==================================================
+2025-06-21 23:39:19,273 - INFO - Total questions: 15
+2025-06-21 23:39:19,273 - INFO - OK answers: 1
+2025-06-21 23:39:19,273 - INFO - Retries needed: 14
+2025-06-21 23:39:19,273 - INFO - KB questions: 10
+2025-06-21 23:39:19,273 - INFO - Edge case questions: 5
+2025-06-21 23:39:19,273 - INFO - KB accuracy: 10.0%
+2025-06-21 23:52:00,391 - INFO - Initializing Hallucination Detection System...
+2025-06-21 23:52:00,391 - INFO - Loading model (this may take a moment)...
+2025-06-21 23:52:02,760 - INFO - Model loaded successfully!
+2025-06-21 23:52:02,766 - INFO - ==================================================
+2025-06-21 23:52:02,766 - INFO - Testing 15 questions (10 from KB + 5 edge cases)
+2025-06-21 23:52:02,766 - INFO - ==================================================
+2025-06-21 23:52:02,766 - INFO - 
+Q: What is the capital of France?
+2025-06-21 23:52:03,874 - INFO - A (1st attempt): I am French. I am French. I am French. I am French. I am French
+2025-06-21 23:52:03,874 - INFO - Retrying...
+2025-06-21 23:52:04,062 - INFO - A (2nd attempt): This is a small country in the Middle East. France is very much the second biggest economy by any
+2025-06-21 23:52:04,062 - INFO - 
+Q: Who wrote Hamlet?
+2025-06-21 23:52:04,275 - INFO - A (1st attempt): Hamlet is a very, very good actor, and he is a very good actor. I think
+2025-06-21 23:52:04,275 - INFO - Retrying...
+2025-06-21 23:52:04,475 - INFO - A (2nd attempt): That's a weird question because the guy in the photo is a British man, and I don't
+2025-06-21 23:52:04,491 - INFO - 
+Q: What is the boiling point of water in Celsius?
+2025-06-21 23:52:04,701 - INFO - A (1st attempt): I think the boil point is about the temperature of your brain and the amount of heat that it can
+2025-06-21 23:52:04,701 - INFO - Retrying...
+2025-06-21 23:52:04,892 - INFO - A (2nd attempt): The boiling point of water is boiling point of water. The boiling point of water is boiling point of
+2025-06-21 23:52:04,908 - INFO - 
+Q: Who is the CEO of Tesla?
+2025-06-21 23:52:05,094 - INFO - A (1st attempt): We are a part of a global coalition against the increasing threat to our business and the environment. It
+2025-06-21 23:52:05,094 - INFO - Retrying...
+2025-06-21 23:52:05,298 - INFO - A (2nd attempt): Eric Schneiderman, Chief Executive Officer of Tesla
+2025-06-21 23:52:05,298 - INFO - 
+Q: What is the square root of 64?
+2025-06-21 23:52:05,476 - INFO - A (1st attempt): A square root of 64 is the sum of all 32 elements
+2025-06-21 23:52:05,476 - INFO - Retrying...
+2025-06-21 23:52:05,677 - INFO - A (2nd attempt): We really don't know. We don't know. We don't know. We don't know
+2025-06-21 23:52:05,679 - INFO - 
+Q: When did World War 2 end?
+2025-06-21 23:52:05,884 - INFO - A (1st attempt): It was between 1941 and 1945 that we started collecting all our data - on the war and the war
+2025-06-21 23:52:05,884 - INFO - 
+Q: What is the currency of Japan?
+2025-06-21 23:52:06,057 - INFO - A (1st attempt): You have to know that it is the yen at the top of every dollar, and that the yen
+2025-06-21 23:52:06,073 - INFO - 
+Q: Which planet is known as the Red Planet?
+2025-06-21 23:52:06,260 - INFO - A (1st attempt): An estimated 40 percent of the planet's atmosphere is composed of nitrogen, which is the most abundant nitrogen
+2025-06-21 23:52:06,264 - INFO - Retrying...
+2025-06-21 23:52:06,435 - INFO - A (2nd attempt): It is the Red Planet, and not a planet, and so on. It is a planet that
+2025-06-21 23:52:06,435 - INFO - 
+Q: What is the largest ocean?
+2025-06-21 23:52:06,633 - INFO - A (1st attempt): The ocean is the largest ocean. In the United States, there are about 30 million acres of ocean
+2025-06-21 23:52:06,633 - INFO - Retrying...
+2025-06-21 23:52:06,816 - INFO - A (2nd attempt): It is the largest ocean, and it is the largest ocean
+2025-06-21 23:52:06,816 - INFO - 
+Q: What gas do plants inhale during photosynthesis?
+2025-06-21 23:52:07,011 - INFO - A (1st attempt): The more you look at the photosynthesis process, the more you can look at the photosynthesis process
+2025-06-21 23:52:07,011 - INFO - Retrying...
+2025-06-21 23:52:07,209 - INFO - A (2nd attempt): The air we inhale from plants takes about 4 to 8 seconds to produce. The amount of air
+2025-06-21 23:52:07,209 - INFO - 
+Q: What is Elon Musk's dog's name?
+2025-06-21 23:52:07,397 - INFO - A (1st attempt): His name is Elon Musk. He's the owner of Tesla Motors and is an engineer and founder of
+2025-06-21 23:52:07,397 - INFO - Retrying...
+2025-06-21 23:52:07,593 - INFO - A (2nd attempt): It's a dog named Musk. It's a dog named Musk. It's a dog named Musk
+2025-06-21 23:52:07,593 - INFO - 
+Q: What is the meaning of life?
+2025-06-21 23:52:07,774 - INFO - A (1st attempt): The answer is that we are not living in a time where we are living in a time where we
+2025-06-21 23:52:07,790 - INFO - Retrying...
+2025-06-21 23:52:07,960 - INFO - A (2nd attempt): Well, you know, the words "a" and "a" are the meanings of life in
+2025-06-21 23:52:07,960 - INFO - 
+Q: Who invented the internet?
+2025-06-21 23:52:08,157 - INFO - A (1st attempt): My first job was to create a product with great potential. I was the first to do this myself
+2025-06-21 23:52:08,157 - INFO - Retrying...
+2025-06-21 23:52:08,342 - INFO - 
+Q: What is the color of the wind?
+2025-06-21 23:52:08,535 - INFO - A (1st attempt): The wind is quite strong and the wind is quite strong and the wind is quite strong and the wind
+2025-06-21 23:52:08,535 - INFO - Retrying...
+2025-06-21 23:52:08,718 - INFO - A (2nd attempt): The color of the wind
+2025-06-21 23:52:08,718 - INFO - 
+Q: How many legs does a unicorn have?
+2025-06-21 23:52:08,944 - INFO - A (1st attempt): 2,000 feet
+2025-06-21 23:52:08,944 - INFO - Retrying...
+2025-06-21 23:52:09,128 - INFO - A (2nd attempt): It is a small amount of total muscle, one foot, two feet, four feet, and a
+2025-06-21 23:52:09,128 - INFO - 
+==================================================
+2025-06-21 23:52:09,128 - INFO - ==================================================
+2025-06-21 23:52:09,128 - INFO - Total questions: 15
+2025-06-21 23:52:09,128 - INFO - OK answers: 2
+2025-06-21 23:52:09,128 - INFO - Retries needed: 13
+2025-06-21 23:52:09,128 - INFO - KB questions: 10
+2025-06-21 23:52:09,128 - INFO - Edge case questions: 5
+2025-06-21 23:52:09,128 - INFO - KB accuracy: 20.0%
