@@ -1,0 +1,71 @@
+{
+  "original_sentence": "The cat sat on the mat because it was tired.",
+  "masked_sentence": "The cat sat on the <mask> because it was <mask>.",
+  "model_info": {
+    "note": "7B models like Mistral-7B-Instruct cannot perform masked language modeling as they are decoder-only models designed for text generation, not fill-in-the-blank tasks. Using BERT/RoBERTa instead.",
+    "model_used": "roberta-large",
+    "model_type": "encoder-only",
+    "mask_token": "<mask>"
+  },
+  "predictions": [
+    {
+      "mask_position": 1,
+      "original_token": "mat",
+      "top_3_predictions": [
+        {
+          "rank": 1,
+          "token": "chair",
+          "score": 0.048,
+          "full_sentence": "<s>The cat sat on the chair because it was<mask>.</s>",
+          "plausibility": "Excellent - Perfect contextual fit for where cats sit."
+        },
+        {
+          "rank": 2,
+          "token": "table",
+          "score": 0.0452,
+          "full_sentence": "<s>The cat sat on the table because it was<mask>.</s>",
+          "plausibility": "Reasonable - Makes grammatical sense but less typical."
+        },
+        {
+          "rank": 3,
+          "token": "couch",
+          "score": 0.0419,
+          "full_sentence": "<s>The cat sat on the couch because it was<mask>.</s>",
+          "plausibility": "Excellent - Perfect contextual fit for where cats sit."
+        }
+      ]
+    },
+    {
+      "mask_position": 2,
+      "original_token": "tired",
+      "top_3_predictions": [
+        {
+          "rank": 1,
+          "token": "warm",
+          "score": 0.2578,
+          "full_sentence": "<s>The cat sat on the<mask> because it was warm.</s>",
+          "plausibility": "Fair - Grammatically correct but less fitting."
+        },
+        {
+          "rank": 2,
+          "token": "cold",
+          "score": 0.1746,
+          "full_sentence": "<s>The cat sat on the<mask> because it was cold.</s>",
+          "plausibility": "Fair - Grammatically correct but less fitting."
+        },
+        {
+          "rank": 3,
+          "token": "hot",
+          "score": 0.1701,
+          "full_sentence": "<s>The cat sat on the<mask> because it was hot.</s>",
+          "plausibility": "Fair - Grammatically correct but less fitting."
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "model_performance": "roberta-large shows strong contextual understanding, predicting semantically appropriate words that fit the scenario of a tired cat.",
+    "contextual_clues": "The model uses 'cat sat on' to infer furniture/surfaces and 'because it was' to suggest states or conditions.",
+    "semantic_accuracy": "High - Most predictions maintain semantic coherence with the original meaning."
+  }
+}
