@@ -5,6 +5,10 @@ from transformers import pipeline
 import warnings
 from validator import Validator
 
+# Hallucination Detection System - Individual Implementation
+# Author: Pranav
+# Custom retry logic and validation approach for Q2 assignment
+
 # Suppress warnings for cleaner output
 warnings.filterwarnings("ignore")
 

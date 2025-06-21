@@ -38,11 +38,11 @@ Something magical happened at epoch 86. Suddenly, everything clicked. The final 
 - Weight (-1.03): Heavier means more likely apple
 - Yellow (+1.06): More yellow means more likely banana
 
-The model went from 6.7% to 100% accuracy, making predictions with 89-97% confidence. It had discovered the same patterns that seem obvious to us, but through pure mathematical optimization.
+The model went from 6.7% to 100% accuracy, making predictions with 89-97% confidence. It had discovered the same patterns that seem obvious to me, but through pure mathematical optimization.
 
 ## The Deeper Lesson
 
-What struck me most was how gradient descent mirrors human learning. We don't start knowing the "right answer"—we make mistakes, get feedback, and gradually adjust. The perceptron's journey from random confusion to perfect clarity reminded me that intelligence isn't about starting smart; it's about learning from being wrong.
+What struck me most was how gradient descent mirrors human learning. I don't start knowing the "right answer"—I make mistakes, get feedback, and gradually adjust. The perceptron's journey from random confusion to perfect clarity reminded me that intelligence isn't about starting smart; it's about learning from being wrong.
 
 The binary cross-entropy loss function acted like a patient teacher, never getting frustrated, just providing consistent feedback: "You're getting warmer" or "You're getting colder." And through hundreds of tiny adjustments, the model found its way.
 
@@ -64,10 +64,10 @@ In just 86 iterations, I watched artificial neurons learn what took humans milli
 
 Sometimes the most profound insights come from the simplest experiments. One neuron taught me more about machine learning than any textbook ever could. Because I built it, debugged it, and watched it learn, I *felt* what gradient descent actually does rather than just reading about it.
 
-When I started this project, I thought I was just implementing basic math. I didn't expect to gain such deep intuition about how learning actually works—both in machines and in ourselves. The moment when those weights finally converged and the model "got it" was genuinely exciting. It's one thing to know that neural networks learn patterns; it's another thing entirely to watch it happen step by step in your own code.
+When I started this project, I thought I was just implementing basic math. I didn't expect to gain such deep intuition about how learning actually works—both in machines and in people. The moment when those weights finally converged and the model "got it" was genuinely exciting. It's one thing to know that neural networks learn patterns; it's another thing entirely to watch it happen step by step in my own code.
 
 Next time someone asks me to explain how AI learns, I'll tell them about my perceptron's journey from 6.7% to 100%—and how sometimes, starting completely wrong is the only way to eventually get it right.
 
 ---
 
-*Want to try building your own perceptron? The math is simpler than you think, and the insights are worth their weight in... well, bananas.* 
+*The math is simpler than you might think, and the insights are worth their weight in... well, bananas.* 

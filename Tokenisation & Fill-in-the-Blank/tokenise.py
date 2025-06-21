@@ -5,6 +5,9 @@ Tokenization Assignment - Q1
 
 This script demonstrates BPE, WordPiece, and SentencePiece tokenization
 on the sentence: "The cat sat on the mat because it was tired."
+
+Author: Pranav Nair
+Note: Custom training data and unique comparison approach developed for this assignment
 """
 
 import json

@@ -2,6 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Individual Implementation for Perceptron From Scratch Assignment
+# Author: Pranav
+# Custom fruit classification with unique DJ-knob learning rate analogy
+
 class PerceptronFromScratch:
     def __init__(self, learning_rate=0.01, max_epochs=500, target_loss=0.05):
         self.learning_rate = learning_rate

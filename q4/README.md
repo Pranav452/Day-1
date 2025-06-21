@@ -4,7 +4,7 @@
 
 ✅ **my_post.md** - Blog post (~765 words) titled "What a One-Neuron Perceptron Taught Me About Gradient Descent"
 
-✅ **requirements.txt** - Dependencies used (numpy, matplotlib, pandas)
+✅ **requirements.txt** - Dependencies I used (numpy, matplotlib, pandas)
 
 ## Blog Post Summary
 
@@ -13,7 +13,7 @@ The blog post tells the authentic story of building a perceptron from scratch to
 - **Format**: Markdown blog post with subheadings and code block
 - **Word count**: 765 words (exceeds ~600 requirement)
 - **Topic**: "What a One-Neuron Perceptron Taught Me About Gradient Descent"
-- **Content**: Based on real perceptron implementation from previous assignment
+- **Content**: Based on my real perceptron implementation from a previous assignment
 - **Structure**: Engaging narrative with technical insights, analogies, and key takeaways
 
 ## Key Elements Included

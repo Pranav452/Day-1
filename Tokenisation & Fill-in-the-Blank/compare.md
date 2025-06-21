@@ -97,6 +97,15 @@ The tokenization algorithms produce different results due to their distinct opti
 2. **Bidirectional Context**: Essential for accurate predictions
 3. **Training Objective**: MLM training enables fill-in-the-blank capability
 
+## AI Assistance Acknowledgment
+
+During this assignment, I received help from ChatGPT in several areas:
+- **Tokenizer Integration**: ChatGPT helped me understand how to properly initialize and train the BPE tokenizer with custom training data
+- **Error Handling**: Suggested adding proper exception handling for model loading failures
+- **Architecture Explanation**: Clarified the differences between encoder-only, decoder-only, and encoder-decoder models for masked language modeling
+
+This assistance was invaluable for understanding the technical concepts and implementing robust code.
+
 ## Conclusion
 
 This analysis demonstrates the importance of:

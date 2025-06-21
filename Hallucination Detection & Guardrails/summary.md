@@ -9,31 +9,31 @@
 - Asking for a historical date and getting a completely wrong year
 - Making up citations, names, or facts that don't exist
 
-## 🛡️ How We Detect Hallucination
+## 🛡️ How I Detect Hallucination
 
-Our hallucination detection system works by:
+My hallucination detection system works by:
 
-1. **Knowledge Base (KB)**: We maintain a `kb.json` file with verified, factual question-answer pairs
-2. **Validation**: Compare the AI model's answers against our known correct answers
+1. **Knowledge Base (KB)**: I maintain a `kb.json` file with verified, factual question-answer pairs
+2. **Validation**: Compare the AI model's answers against my known correct answers
 3. **Categorization**: Flag responses as either:
    - ✅ **OK**: Answer matches knowledge base
    - 🛑 **RETRY: answer differs from KB**: Wrong answer for a known question
-   - 🛑 **RETRY: out-of-domain**: Question not in our knowledge base
+   - 🛑 **RETRY: out-of-domain**: Question not in my knowledge base
 
 ## 🔄 Retry Logic
 
-When hallucination is detected, our system:
+When hallucination is detected, my system:
 
 1. **First Attempt**: Ask the question to the model
 2. **Validation**: Check against knowledge base
 3. **Retry**: If validation fails, ask the same question again
 4. **Final Result**: Report the outcome of both attempts
 
-This gives the model a second chance and helps us understand consistency patterns.
+This gives the model a second chance and helps me understand consistency patterns.
 
 ## 🤖 Model Used
 
-We use **distilgpt2** for this demonstration because:
+I use **distilgpt2** for this demonstration because:
 - **Lightweight**: ~500MB, runs on CPU
 - **Fast**: Quick responses for testing
 - **Accessible**: Available through Hugging Face Transformers
@@ -102,8 +102,18 @@ Hallucination Detection & Guardrails/
 
 1. **Model Limitations**: distilgpt2 frequently hallucinates due to its small size
 2. **Consistency Issues**: Retry attempts often yield different (sometimes better) answers
-3. **Domain Knowledge**: Out-of-domain questions reliably trigger our guardrails
-4. **Validation Effectiveness**: Our simple string-matching catches obvious hallucinations
+3. **Domain Knowledge**: Out-of-domain questions reliably trigger my guardrails
+4. **Validation Effectiveness**: My simple string-matching catches obvious hallucinations
+
+## 🤖 AI Assistance Acknowledgment
+
+During this project, ChatGPT provided significant assistance:
+- **Logging Setup**: Helped me configure proper logging with both file and console output
+- **JSON Handling**: Suggested using `ensure_ascii=False` for proper Unicode handling when saving results
+- **Pipeline Configuration**: Clarified the correct parameters for the Hugging Face text generation pipeline, including `pad_token_id` settings
+- **Error Recovery**: Provided guidance on implementing robust retry mechanisms and exception handling
+
+This AI assistance was crucial for building a reliable hallucination detection system.
 
 ## 🚀 Potential Enhancements
 
